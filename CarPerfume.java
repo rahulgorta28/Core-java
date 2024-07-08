@@ -1,11 +1,12 @@
 class CarPerfume{
-
+     
+	static String colour = "Pack of 1";
+	static String scent = "Musk";
+	static String brand = "Involve your senses";
+	static String powerSource = "Non-Powered";
+	 
     public static void main(String[] args){
 	
-	String colour = "Pack of 1";
-	String scent = "Musk";
-	String brand = "Involve your senses";
-	String powerSource = "Non-Powered";
 	System.out.println("The Colour is:" + colour);
 	System.out.println("The Scent is:" + scent);
 	System.out.println("The Brand is:" + brand);

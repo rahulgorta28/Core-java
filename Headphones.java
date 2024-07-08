@@ -1,11 +1,13 @@
 class Headphones{
-
+            
+			static String brand = "Amazon Basics";
+			static String colour = "Black";
+			static String earPlacement = "In Ear";
+			static String headPhonesJack = "USB";
+			
         public static void main(String[] args){
 			
-			String brand = "Amazon Basics";
-			String colour = "Black";
-			String earPlacement = "In Ear";
-			String headPhonesJack = "USB";
+			
 			System.out.println("The Brand is:" + brand);
 			System.out.println("The colour is:" + colour);
 			System.out.println("The Ear Placement is:" + earPlacement);

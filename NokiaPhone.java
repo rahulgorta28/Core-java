@@ -1,11 +1,13 @@
 class NokiaPhone{
-
+          
+		   static String brand = "Nokia";
+		   static String cpuModel = "Cortex A7";
+		   static String memoryStroageCapacity = "32 GB";
+		   static String ramMemory = "1 GB"; 
+		  
         public static void main(String[] args){
 		
-		   String brand = "Nokia";
-		   String cpuModel = "Cortex A7";
-		   String memoryStroageCapacity = "32 GB";
-		   String ramMemory = "1 GB";
+		   
 		   System.out.println("The Brand name is :" + brand);
 		   System.out.println("The CPU Model is :" + cpuModel);
 		   System.out.println("The Memory Stroage Capacity is :" + memoryStroageCapacity);

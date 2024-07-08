@@ -1,13 +1,15 @@
 class CetaphilFaceWash{
-
+       
+	  static String brand = "Cetaphil";
+	  static String itemWeight = "125 Grams";
+	  static String scent = "Unscented";
+	  static int packageItem = 1;
+	  static String skinType = "Sensitive,Dry,Normal";
+	  static String ageRange = "18 and above";
+	   
       public static void main(String[] args){
 	  
-	  String brand = "Cetaphil";
-	  String itemWeight = "125 Grams";
-	  String scent = "Unscented";
-	  int packageItem = 1;
-	  String skinType = "Sensitive,Dry,Normal";
-	  String ageRange = "18 and above";
+	  
 	  System.out.println("The Brand is:" + brand);
 	  System.out.println("The Item Weight:" + itemWeight);
 	  System.out.println("The Scent is:" + scent);

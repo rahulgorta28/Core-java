@@ -1,13 +1,15 @@
 class WomenKurta{
 
+        static String length = "Calf Length";
+		static String sleeveType = "3/4 Sleeve";
+		static String neckStyle = "Round Neck";
+		static String style = "Regular";
+		static String materialType = "Cotton Blend";
+		static String countryOfOrigin = "India";
+
     public static void main(String[] args){
 		
-		String length = "Calf Length";
-		String sleeveType = "3/4 Sleeve";
-		String neckStyle = "Round Neck";
-		String style = "Regular";
-		String materialType = "Cotton Blend";
-		String countryOfOrigin = "India";
+		
 		System.out.println("The length is:" + length);
 		System.out.println("The Sleeve Type is:" + sleeveType);
 		System.out.println("The Neck Style is:" + neckStyle);

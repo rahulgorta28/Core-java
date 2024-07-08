@@ -1,11 +1,12 @@
 class ElectricRotiMaker{
-
+        
+		      static String colour = "Stainless steel";
+			  static String material = "Stainless steel";
+			  static String brand = "Libra";
+			  static String style = "casual";
+		
           public static void main(String[] args){
 			  
-			  String colour = "Stainless steel";
-			  String material = "Stainless steel";
-			  String brand = "Libra";
-			  String style = "casual";
 			  System.out.println("The colour is:" + colour);
 			  System.out.println("The material used is:" + material);
 			  System.out.println("The Brand is:" + brand);

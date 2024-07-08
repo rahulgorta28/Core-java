@@ -1,11 +1,13 @@
 class SunnyRideCar{
-
+           
+		   static int modelNumber = 19407;
+		   static String material = "Plastic";
+		   static String colour = "Pink";
+		   static String countryOfOrigin = "India"; 
+		   
        public static void main(String[] args){
 		   
-		   int modelNumber = 19407;
-		   String material = "Plastic";
-		   String colour = "Pink";
-		   String countryOfOrigin = "India";
+		   
 		   System.out.println("The Model Number is:" + modelNumber);
 		   System.out.println("The material used is:" + material);
 		   System.out.println("The Colour is:" + colour);

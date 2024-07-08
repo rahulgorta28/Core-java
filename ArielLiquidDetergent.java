@@ -1,11 +1,13 @@
 class ArielLiquidDetergent{
-
+      
+	    static String brand = "Ariel";
+		static String itemForm = "Liquid";
+		static int noOfItems = 1;
+		static String scent = "Fresh";
+	  
     public static void main(String[] args){
 		
-		String brand = "Ariel";
-		String itemForm = "Liquid";
-		int noOfItems = 1;
-		String scent = "Fresh";
+		
 		System.out.println("The Brand is:" + brand);
 		System.out.println("The Item Form:" + itemForm);
 		System.out.println("The No Of Items is:" + noOfItems);

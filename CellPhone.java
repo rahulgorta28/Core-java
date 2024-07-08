@@ -1,11 +1,16 @@
 class CellPhone{
-
+    
+	
+	    static String colour = "Black";
+		static String brand = "Xiaomi";
+		static String screenSize = "6.75 Inches";
+		static String memoryStroageCapacity = "1000 GB";
+	
+	
+	
     public static void main(String[] args){
 		
-		String colour = "Black";
-		String brand = "Xiaomi";
-		String screenSize = "6.75 Inches";
-		String memoryStroageCapacity = "1000 GB";
+		
 		System.out.println("The Colour is:" + colour);
 		System.out.println("The Brand is:" + brand);
 		System.out.println("The Screen Size is:" + screenSize);

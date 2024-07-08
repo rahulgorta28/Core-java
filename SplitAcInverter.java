@@ -1,11 +1,13 @@
 class SplitAcInverter{
 
+        static String brand = "Daikin";
+		static String capacity = "1.5 Tons";
+		static String coolingPower = "17100 British Thermal Units";
+		static String specialFeature = "High Ambient Operation upto 52°C, 3D Airflow, Dew Clean Technology, Triple Display, PM 2.5 Filter";
+
     public static void main(String[] args){
 	
-	    String brand = "Daikin";
-		String capacity = "1.5 Tons";
-		String coolingPower = "17100 British Thermal Units";
-		String specialFeature = "High Ambient Operation upto 52°C, 3D Airflow, Dew Clean Technology, Triple Display, PM 2.5 Filter";
+	    
 		System.out.println("The Brand is :" + brand);
 		System.out.println("The Capacity is :" + capacity);
 		System.out.println("The Cooling power is :" + coolingPower);

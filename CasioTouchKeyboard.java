@@ -1,12 +1,14 @@
 class CasioTouchKeyboard{
-
+      
+	    static String brand = "Casio";
+		static String colour = "Black";
+		static int noOfKeys = 61;
+		static String specialFeature = "Portable";
+		static String skillLevel = "Beginner";
+	  
     public static void main(String[] args){
 		
-		String brand = "Casio";
-		String colour = "Black";
-		int noOfKeys = 61;
-		String specialFeature = "Portable";
-		String skillLevel = "Beginner";
+		
 		System.out.println("The Brand is:" + brand);
 		System.out.println("The Colour is:" + colour);
 		System.out.println("The No. of keys is:" + noOfKeys);

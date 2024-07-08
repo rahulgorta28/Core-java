@@ -1,11 +1,13 @@
 class NeckPillow{
 
+     static String genericName = "Travel Pillow";
+	 static String itemWeight = "129 g";
+	 static String netQuantity = "1 Count";
+	 static String manufacturer = "Big Player";
+
+
      public static void main(String[] args){
-	 
-	 String genericName = "Travel Pillow";
-	 String itemWeight = "129 g";
-	 String netQuantity = "1 Count";
-	 String manufacturer = "Big Player";
+	  
 	 System.out.println("The Generic Name is:" + genericName);
 	 System.out.println("The Item Weight is:" + itemWeight);
 	 System.out.println("The Net Quantity is:" + netQuantity);

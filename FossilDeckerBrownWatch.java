@@ -1,11 +1,12 @@
 class FossilDeckerBrownWatch{
-
-    public static void main(String[] args){
+      
+	    static String bandColour = "Brown";
+		static String countryOfOrigin = "India";
+		static String warrantyType = "Manufacturer";
+		static String itemWeight = "200 Grams";
+	  
+         public static void main(String[] args){
 		
-		String bandColour = "Brown";
-		String countryOfOrigin = "India";
-		String warrantyType = "Manufacturer";
-		String itemWeight = "200 Grams";
 		System.out.println("The Band Colour is:" + bandColour);
 		System.out.println("The Country of origin is:" + countryOfOrigin);
 		System.out.println("The Warranty Type is:" + warrantyType);

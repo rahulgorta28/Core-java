@@ -1,11 +1,13 @@
 class TurboCharger{
-
+          
+		  static String brand = "Kratos";
+		  static String compatableDevices = "USB";
+		  static String colour = "White";
+		  static String mountingType = "Wall Mount";
+		  
       public static void main(String[] args){
 		  
-		  String brand = "Kratos";
-		  String compatableDevices = "USB";
-		  String colour = "White";
-		  String mountingType = "Wall Mount";
+		  
 		  System.out.println("The Brand is:" + brand);
 		  System.out.println("The Compatable Device:" + compatableDevices);
 		  System.out.println("The mounting Type is:" + mountingType);

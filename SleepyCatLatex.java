@@ -1,12 +1,13 @@
 class SleepyCatLatex{
-
-     public static void main(String[] args){
-		 
-		 String brand = "Sleepy Cat";
-		 String size = "Queen";
-		 String fillMaterial = "Latex";
-		 String colour = "White";
-		 String modelName = "Hybrid Latex Matters";
+       
+	     static String brand = "Sleepy Cat";
+		 static String size = "Queen";
+		 static String fillMaterial = "Latex";
+		 static String colour = "White";
+		 static String modelName = "Hybrid Latex Matters";
+	   
+         public static void main(String[] args){
+		  
 		 System.out.println("The brand is:" + brand);
 		 System.out.println("The Size is:" + size);
 		 System.out.println("The Fill Material is:" + fillMaterial);

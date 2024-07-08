@@ -1,11 +1,13 @@
 class SmartWiFiInverter{
-
+         
+		 static String brand = "Blue Star";
+		 static String capacity = "1.05 Tons";
+		 static String specialFeature = "Dust Filter";
+		 static String coolingPower = "18000 British Thermal Units";
+		 
      public static void main(String[] args){
 		 
-		 String brand = "Blue Star";
-		 String capacity = "1.05 Tons";
-		 String specialFeature = "Dust Filter";
-		 String coolingPower = "18000 British Thermal Units";
+		
 		 System.out.println("The Brand is:" + brand);
 		 System.out.println("The Capacity is:" + capacity);
 		 System.out.println("The Special Feature is:" + specialFeature);

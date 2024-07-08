@@ -1,12 +1,15 @@
 class UrbanTerrainBicycle{
-
+         
+		   static String bikeType = "Mountain Bike";
+		   static String ageRange = "Adult";
+		   static String brand = "Urbain Terrain";
+		   static int noOfSpeed = 1;
+		   static String colour = "Green , Black";
+		 
+		 
        public static void main(String[] args){
 		   
-		   String bikeType = "Mountain Bike";
-		   String ageRange = "Adult";
-		   String brand = "Urbain Terrain";
-		   int noOfSpeed = 1;
-		   String colour = "Green , Black";
+		   
 		   System.out.println("The Bicycle type is " + bikeType);
 		   System.out.println("The Bicycle Agerange is " + ageRange);
 		   System.out.println("The Bicycle Brand is " + brand);

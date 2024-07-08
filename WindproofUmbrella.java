@@ -1,11 +1,14 @@
 class WindproofUmbrella{
-
+        
+		  static String brand = "Zemic";
+		  static String pattern = "Solid";
+		  static String frameMaterial = "Fibre Glass";
+		  static String countryOfOrigin = "India";
+		
+		
       public static void main(String[] args){
 		  
-		  String brand = "Zemic";
-		  String pattern = "Solid";
-		  String frameMaterial = "Fibre Glass";
-		  String countryOfOrigin = "India";
+		  
 		  System.out.println("The Brand is:" + brand);
 		  System.out.println("The Pattern is:" + pattern);
 		  System.out.println("The Frame Material is:" + frameMaterial);

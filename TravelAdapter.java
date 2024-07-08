@@ -1,11 +1,13 @@
 class TravelAdapter{
 
+             static String brand = "rts";
+			 static String connectivityTechnology = "Wall Socket";
+			 static String connectorType = "Wall Socket";
+			 static String colour = "Black";
+       
          public static void main(String[] args){
 			 
-			 String brand = "rts";
-			 String connectivityTechnology = "Wall Socket";
-			 String connectorType = "Wall Socket";
-			 String colour = "Black";
+			 
 			 System.out.println("The brand is:" + brand);
 			 System.out.println("The Connectivity Technology:" + connectivityTechnology);
 			 System.out.println("The Connector Type:" + connectorType);

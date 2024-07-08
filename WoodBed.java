@@ -1,10 +1,12 @@
 class WoodBed{
-
+     
+	    static String size = "Queen";
+		static String material = "Engineered wood";
+		static String dimension = "2.1L x 1.57W x 0.6H Meters";
+		static String colour = "Brown";
+	 
      public static void main(String[] args){
-		String size = "Queen";
-		String material = "Engineered wood";
-		String dimension = "2.1L x 1.57W x 0.6H Meters";
-		String colour = "Brown";
+		
 		System.out.println("The size is " + size);
 		System.out.println("The material used is " + material);
 		System.out.println("The dimension is " + dimension);
@@ -20,6 +22,7 @@ class WoodBed{
 	 
 	 
 	 }
+	 
 
 
 

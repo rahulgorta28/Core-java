@@ -1,11 +1,13 @@
 class CromptonFan{
-
+       
+		 static String brand = "Crompton";
+		 static String colour = "Lustre Brown";
+		 static String powerSource = "Electricity";
+		 static String specialFeature = "High Velocity";
+	   
+	   
      public static void main(String[] args){
 		 
-		 String brand = "Crompton";
-		 String colour = "Lustre Brown";
-		 String powerSource = "Electricity";
-		 String specialFeature = "High Velocity";
 		 System.out.println("The Brand name is:" + brand);
 		 System.out.println("The colour is:" + colour);
 		 System.out.println("The Power Source is:" + powerSource);
