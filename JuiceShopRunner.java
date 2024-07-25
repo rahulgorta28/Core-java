@@ -15,6 +15,14 @@ class JuiceShopRunner{
 			if(isJuiceNameAdded){
   
 			JuiceShop.printJuiceNames();
+			
+			
+			boolean isupdated	= JuiceShop.updateJuiceName("Mango Juice" , "Strawberry Juice");
+	 if(isupdated)
+		 JuiceShop.printJuiceNames();
+					boolean  isdeleted = JuiceShop.deleteJuiceName("Apple Juice");
+				if(isdeleted)
+					JuiceShop.printJuiceNames();
   }
 	
 	

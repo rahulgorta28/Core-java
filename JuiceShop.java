@@ -1,3 +1,4 @@
+import java.util.*;
 class JuiceShop{
 	
 	static String JuiceNames[] = {null,null,null,null,null,null};
@@ -26,8 +27,50 @@ class JuiceShop{
 		
 	
 		 }
-	
+		 public static boolean updateJuiceName(String oldJuiceName , String newJuiceName){
+			 
+			 System.out.println("The Update method started");
+			 
+			boolean isJuiceNameUpdated = false;
+			
+			for(int position=0 ; position<JuiceNames.length;position++){
+				
+				if(JuiceNames[position] == oldJuiceName){
+					JuiceNames[position] = newJuiceName;
+				
+				  isJuiceNameUpdated = true;
+			    }
+	        }
+			if(isJuiceNameUpdated == false)
+				System.out.println(oldJuiceName + "not found");
+		 
+		    return isJuiceNameUpdated;
+		 }
+		 public static boolean deleteJuiceName(String delete){
+
+			System.out.println("The Delete method started");
+		
+		boolean isJuiceNameDeleted = false;
+		int position, newPosition;
+		for(position = 0 , newPosition = 0 ; position<JuiceNames.length ; position++){
+			if(JuiceNames[position]!=delete){
+				JuiceNames[newPosition] = JuiceNames[position];
+				newPosition++;
+			}
+			else
+				isJuiceNameDeleted = true;
+		}
+			JuiceNames = Arrays.copyOf(JuiceNames,newPosition);
+			
+			if(!isJuiceNameDeleted)
+				System.out.println(delete+" not found");
+		return isJuiceNameDeleted;	
+	} 
+
 	}
+
+	
+	
 
 
 

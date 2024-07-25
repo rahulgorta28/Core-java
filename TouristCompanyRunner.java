@@ -19,6 +19,13 @@ class TouristCompanyRunner{
 			if(isTouristPlaceNameAdded){
   
 			TouristCompany.printTouristPlaceNames();
+			
+			boolean isupdated	= TouristCompany.updateTouristPlaceName("Taj Mahal, Agra, India" , "Dubai");
+	 if(isupdated)
+		 TouristCompany.printTouristPlaceNames();
+					boolean  isdeleted = TouristCompany.deleteTouristPlaceName("Mount Fuji, Japan");
+				if(isdeleted)
+					TouristCompany.printTouristPlaceNames();
   }
 	
 	

@@ -19,6 +19,13 @@ class MRPStoreRunner{
 			if(isAlcoholNameAdded){
   
 			MRPStore.printAlcoholNames();
+			
+			boolean isupdated	= MRPStore.updateAlcoholName("Bacardi Rum" , "Wisky");
+	 if(isupdated)
+		 MRPStore.printAlcoholNames();
+					boolean  isdeleted = MRPStore.deleteAlcoholName("Smirnoff Vodka");
+				if(isdeleted)
+					MRPStore.printAlcoholNames();
   }
 	
 	

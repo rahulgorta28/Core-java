@@ -15,6 +15,14 @@ class TeaPointRunner{
 			if(isTeaNameAdded){
   
 			TeaPoint.printTeaNames();
+			
+			
+	 boolean isupdated	= TeaPoint.updateTeaName("Lemon Tea" , "New Tea");
+	 if(isupdated)
+		 TeaPoint.printTeaNames();
+					boolean  isdeleted = TeaPoint.deleteTeaName("Badam Tea");
+				if(isdeleted)
+					TeaPoint.printTeaNames();
   }
 	
 	

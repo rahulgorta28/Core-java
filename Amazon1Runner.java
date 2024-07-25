@@ -19,6 +19,13 @@ class Amazon1Runner{
 			if(isProductNameAdded){
   
 			Amazon1.printProductNames();
+			
+			boolean isupdated	= Amazon1.updateProductName("Echo Show 8" , "Speaker");
+	 if(isupdated)
+		 Amazon1.printProductNames();
+					boolean  isdeleted = Amazon1.deleteProductName("Amazon Smart Plug");
+				if(isdeleted)
+					Amazon1.printProductNames();
   }
 	
 	

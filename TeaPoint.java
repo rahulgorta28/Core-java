@@ -1,3 +1,4 @@
+import java.util.*;
 class TeaPoint{
 	
 	static String TeaNames[] = {null,null,null,null,null,null};
@@ -26,7 +27,47 @@ class TeaPoint{
 		
 	
 		 }
-	
+		 
+		 public static boolean updateTeaName(String oldTeaName , String newTeaName){
+			 
+			 System.out.println("The Update method started");
+			 
+			boolean isTeaNameUpdated = false;
+			
+			for(int position=0 ; position<TeaNames.length;position++){
+				
+				if(TeaNames[position] == oldTeaName){
+					TeaNames[position] = newTeaName;
+				
+				  isTeaNameUpdated = true;
+			    }
+	        }
+			if(isTeaNameUpdated == false)
+				System.out.println(oldTeaName + "not found");
+		 
+		    return isTeaNameUpdated;
+		 }
+		 public static boolean deleteTeaName(String delete){
+
+			System.out.println("The Delete method started");
+		
+		boolean isTeaNameDeleted = false;
+		int position, newPosition;
+		for(position = 0 , newPosition = 0 ; position<TeaNames.length ; position++){
+			if(TeaNames[position]!=delete){
+				TeaNames[newPosition] = TeaNames[position];
+				newPosition++;
+			}
+			else
+				isTeaNameDeleted = true;
+		}
+			TeaNames = Arrays.copyOf(TeaNames,newPosition);
+			
+			if(!isTeaNameDeleted)
+				System.out.println(delete+" not found");
+		return isTeaNameDeleted;	
+	} 
+
 	}
 
 

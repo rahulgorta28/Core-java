@@ -1,3 +1,4 @@
+import java.util.*;
 class Amazon1{
 	
 	static String ProductNames[] = {null,null,null,null,null,null,null,null,null,null};
@@ -26,8 +27,50 @@ class Amazon1{
 		
 	
 		 }
-	
+		 public static boolean updateProductName(String oldProductName , String newProductName){
+			 
+			 System.out.println("The Update method started");
+			 
+			boolean isProductNameUpdated = false;
+			
+			for(int position=0 ; position<ProductNames.length;position++){
+				
+				if(ProductNames[position] == oldProductName){
+					ProductNames[position] = newProductName;
+				
+				  isProductNameUpdated = true;
+			    }
+	        }
+			if(isProductNameUpdated == false)
+				System.out.println(oldProductName + "not found");
+		 
+		    return isProductNameUpdated;
+		 }
+		 public static boolean deleteProductName(String delete){
+
+			System.out.println("The Delete method started");
+		
+		boolean isProductNameDeleted = false;
+		int position, newPosition;
+		for(position = 0 , newPosition = 0 ; position<ProductNames.length ; position++){
+			if(ProductNames[position]!=delete){
+				ProductNames[newPosition] = ProductNames[position];
+				newPosition++;
+			}
+			else
+				isProductNameDeleted = true;
+		}
+			ProductNames = Arrays.copyOf(ProductNames,newPosition);
+			
+			if(!isProductNameDeleted)
+				System.out.println(delete+" not found");
+		return isProductNameDeleted;	
+	} 
+
 	}
+
+	
+	
 
 
 

@@ -1,3 +1,4 @@
+import java.util.*;
 class MRPStore{
 	
 	static String AlcoholNames[] = {null,null,null,null,null,null,null,null,null,null};
@@ -26,8 +27,50 @@ class MRPStore{
 		
 	
 		 }
-	
+		 
+		 public static boolean updateAlcoholName(String oldAlcoholName , String newAlcoholName){
+			 
+			 System.out.println("The Update method started");
+			 
+			boolean isAlcoholNameUpdated = false;
+			
+			for(int position=0 ; position<AlcoholNames.length;position++){
+				
+				if(AlcoholNames[position] == oldAlcoholName){
+					AlcoholNames[position] = newAlcoholName;
+				
+				  isAlcoholNameUpdated = true;
+			    }
+	        }
+			if(isAlcoholNameUpdated == false)
+				System.out.println(oldAlcoholName + "not found");
+		 
+		    return isAlcoholNameUpdated;
+		 }
+		 public static boolean deleteAlcoholName(String delete){
+
+			System.out.println("The Delete method started");
+		
+		boolean isAlcoholNameDeleted = false;
+		int position, newPosition;
+		for(position = 0 , newPosition = 0 ; position<AlcoholNames.length ; position++){
+			if(AlcoholNames[position]!=delete){
+				AlcoholNames[newPosition] = AlcoholNames[position];
+				newPosition++;
+			}
+			else
+				isAlcoholNameDeleted = true;
+		}
+			AlcoholNames = Arrays.copyOf(AlcoholNames,newPosition);
+			
+			if(!isAlcoholNameDeleted)
+				System.out.println(delete+" not found");
+		return isAlcoholNameDeleted;	
+	} 
+
 	}
+	
+	
 
 
 

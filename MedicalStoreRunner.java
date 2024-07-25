@@ -19,6 +19,12 @@ class MedicalStoreRunner{
 			if(isMedicineNameAdded){
   
 			MedicalStore.printMedicineNames();
+			boolean isupdated	= MedicalStore.updateMedicineName("Paracetamol" , "Sinarest");
+	 if(isupdated)
+		 MedicalStore.printMedicineNames();
+					boolean  isdeleted = MedicalStore.deleteMedicineName("Albuterol");
+				if(isdeleted)
+					MedicalStore.printMedicineNames();
   }
 	
 	
