@@ -7,6 +7,16 @@ class House{
 	int noOfMembers;
 	String houseName;
 	
+	public House(int houseId,int noOfRooms,int noOfFloors,String areaInSqrt,int noOfMembers,String houseName){
+		
+		this.houseId = houseId;
+		this.noOfRooms = noOfRooms;
+		this.noOfFloors = noOfFloors;
+		this.areaInSqrt = areaInSqrt;
+		this.noOfMembers = noOfMembers;
+		this.houseName = houseName;
+	}
+	
 	public void displayDetails(){
 		System.out.println("Display method started");
 		System.out.println("The House Id is:" + houseId);

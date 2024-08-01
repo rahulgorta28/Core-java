@@ -7,6 +7,20 @@ class Bank{
 	int noOfWorkers;
 	String branchName;
 	
+	
+	public Bank(int bankId,String ifscCode,String swiftCode,String bankName,int noOfWorkers,String branchName){
+		
+		this.bankId = bankId;
+		this.ifscCode = ifscCode;
+		this.swiftCode = swiftCode;
+		this.bankName = bankName;
+		this.noOfWorkers = noOfWorkers;
+		this.branchName = branchName;
+		
+		
+		
+	}
+	
 	public void displayDetails(){
 		System.out.println("Display method started");
 		System.out.println("The Bank Id is:" + bankId);
