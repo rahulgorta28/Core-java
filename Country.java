@@ -1,29 +1,17 @@
-class Country{
+package com.xworkz.patient.country;
 
-    int countryId;
-	int noOfStates;
-	String pmOfCountry;
-	String countryName;
-	String population;
-	
-	public Country(int countryId,int noOfStates,String pmOfCountry,String countryName,String population){
-		
-		this.countryId = countryId;
-		this.noOfStates = noOfStates;
-		this.pmOfCountry = pmOfCountry;
-		this.countryName = countryName;
-		this.population = population;
-	}
-	
-	public void displayDetails(){
-		System.out.println("Display method started");
-		System.out.println("The Country Id is:" + countryId);
-		System.out.println("The No. of the states are:" + noOfStates);
-		System.out.println("The Country Name is:" + countryName);
-		System.out.println("The Population is:" + population);
-		
-		
-	}
-	
+import com.xworkz.patient.state.State;
 
+public class Country {
+    State state;
+
+    public Country(State state) {
+        this.state = state;
+    }
+
+    public void getCountryDetails(){
+        System.out.println("get country details method started");
+        this.state.getStateDetails();
+        System.out.println("get country details method ended");
+    }
 }
