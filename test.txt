@@ -1,0 +1,66 @@
+1 ---> a) public static void main(String args[])
+	public -> It is a access modifier which mainly helps us to give the access to the java class or a file from the packages or outside the packages.
+	static -> It is a keyword and non - access specifier which helps the jvm to access a class or a file without creating a instance of that class.
+	void  -> void is a return type which does not return any value as a result.
+	main  -> It is name of the method which is pre defined by the which takes a Array of strings as a argument.
+	String[] args  -> It is a String of Array which is passed to the main method, which helps us to read the command line Arguments from the console.
+
+	b) Class is a template or a user defined Data Type which helps us to create multiple objects of that class And Object is a instance of that class which is multiple copies of that     class
+
+	c) JVM is a component which is used to compile and execute the java file.
+		1> It provides the run time Environment.
+		2> It loads the byte code
+		3> It after verifies the byte code stream line by line
+		4> It execute the byte code or a java file.
+	JRE is a component which provides run time environment which contains JVM and a set of libraries, which is the minimum requirement to compile the java code.
+
+	JDK is a fully featured java component which contains development tools like compiler ,java docs etc .It contains JRE and development tools.
+
+2 ---> Constructor is special type of method which has a same name as class name but does not have any return value type and which is used to initialize the instance of the class and the instance variables which helps in code reusability.
+
+There are three types of constructors mainly 
+1 > Default or no-args Constructor which is invoked at the time of object creation by the java compiler which does not take any parameters in it.
+2 > Parameterized constructor is a constructor which takes the parameters in it to initialize the instance of the class.
+3 > Copy Constructor is a constructor which is used to reuse the constructor by passing an instance of one Constructor to another constructor as a argument.
+
+3 ---> this is a keyword which is used to refer the current instance of the class and it also helps us to refer to the instance variables from  the static or local variables to resolve Ambiguity.
+
+3 ----> this() is a method which is used to call a constructor from the another constructor and vice-versa from default to parameterized. And it should be written on the first Statement in the constructor to invoke the this().
+
+4 ---> The main method should be static because the main method should start its execution without creating an instance of that class which is starting and ending point of any java program. 
+
+method types 
+
+1>static and non -static
+
+static method can be accessed without creating any instance of the class
+
+non-static method cannot be accessed directly without any instance creation.
+
+5 --->  Java class loaders in which a class is loaded in meta space once..bootstrap class class loaders
+
+6 ---> We cannot have private constructor ,if we make private constructor it will be limited to the class itself and we cannot invoke the constructor outside that class to initialise the instance variables.
+
+7 ---> import java.util.*;
+ 	class ArrSize{
+		public static void main(String[] args){
+		
+		ArrayList<Integer> arr = Arrays.ListOf(12,3,2,45,6,7,6);
+		
+		Collections.size(arr);
+		System.out.println(arr);
+
+}
+		
+}
+
+8 ---> No we cannot use the instance variable inside a static method we can access through creating an instance of that class.
+
+9 ---> Polymorphism is a principle of OOPS where object behaves differently at different instances with different forms.
+run time polymorphism
+compile time polymorphism
+
+method overloading is where two or more methos having same method name with difference in parameters list or the type of type of the data.
+method overriding is where same method redefines it or overrides it.
+
+10 --> Inheritance is where one class aquire the properities of another class  and behaviours.
